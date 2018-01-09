@@ -56,6 +56,7 @@ public class DefaultLoadMoreView extends LoadMoreViewCreator {
         animation.setRepeatCount(-1);
         animation.setDuration(2000);
         mRefreshImageView.startAnimation(animation);
+        mRefreshTextView.setText("正在加载中...");
     }
 
     @Override

@@ -55,6 +55,7 @@ public class DefaultRefreshView extends RefreshViewCreator {
         animation.setRepeatCount(-1);
         animation.setDuration(2000);
         mRefreshImageView.startAnimation(animation);
+        mRefreshTextView.setText("正在刷新中...");
     }
 
     @Override
